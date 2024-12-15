@@ -27,3 +27,5 @@ Depuração usando GDB:
 - (gdb) continue #seguir para proximo breakpoint
 - (gdb) quit #encerrar depuração
 
+video: https://www.loom.com/share/b461e8a93cdb42cf91c5a7439b136ade?sid=13bc971f-619f-4cbd-8a8d-9d2263677079
+
