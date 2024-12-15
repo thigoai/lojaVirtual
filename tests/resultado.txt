@@ -1,0 +1,13 @@
+Test project /home/runner/LojaVirtual/build
+    Start 1: CatalogoTests.AdicionarEListarProdutos
+1/4 Test #1: CatalogoTests.AdicionarEListarProdutos ...   Passed    0.00 sec
+    Start 2: CatalogoTests.BuscarProdutoPorId
+2/4 Test #2: CatalogoTests.BuscarProdutoPorId .........   Passed    0.00 sec
+    Start 3: PedidoTests.CalcularTotal
+3/4 Test #3: PedidoTests.CalcularTotal ................   Passed    0.00 sec
+    Start 4: IntegracaoTests.CenárioCompleto
+4/4 Test #4: IntegracaoTests.CenárioCompleto .........   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =   0.01 sec
