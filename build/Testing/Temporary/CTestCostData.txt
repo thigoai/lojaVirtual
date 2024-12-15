@@ -1,7 +1,0 @@
-CatalogoTests.AdicionarEListarProdutos 4 0.000400347
-CatalogoTests.BuscarProdutoPorId 1 0.0014355
-PedidoTests.CalcularTotalSemDesconto 1 0.00152298
-PedidoTests.CalcularTotalComDesconto 0 0
-IntegracaoTests.CenárioCompleto 4 0.0003368
-PedidoTests.CalcularTotal 3 0.0004401
----
