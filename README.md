@@ -1,7 +1,7 @@
 O projeto simula uma loja virtual
 
 Para compilar: 
-  mkdir build
+  \nmkdir build
   cd build
   cmake ..
   make
