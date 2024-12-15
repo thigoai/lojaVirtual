@@ -3,7 +3,7 @@ Loja Virtual
 Descrição:
 O projeto simula uma loja virtual
 
-##Para compilar: 
+Para compilar: 
 - mkdir build
 - cd build
 - cmake ..
