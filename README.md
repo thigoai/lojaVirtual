@@ -1,7 +1,10 @@
+#Loja Virtual
+
+##Descrição
 O projeto simula uma loja virtual
 
-Para compilar: 
-  \nmkdir build
+##Para compilar: 
+- mkdir build
   cd build
   cmake ..
   make
