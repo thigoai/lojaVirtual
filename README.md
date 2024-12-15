@@ -1,20 +1,20 @@
-#Loja Virtual
+Loja Virtual
 
-##Descrição
+Descrição:
 O projeto simula uma loja virtual
 
 ##Para compilar: 
 - mkdir build
-  cd build
-  cmake ..
-  make
+- cd build
+- cmake ..
+- make
 
 Rodar os testes:
-  ctesr
+- ctesr
 
 Executar:
-  ./src/main_exec
+- ./src/main_exec
 
 Obter os logs:
-  cat loja_virtual.log
+- cat loja_virtual.log
 
