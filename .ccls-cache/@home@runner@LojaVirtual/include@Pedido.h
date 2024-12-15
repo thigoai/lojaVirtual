@@ -7,10 +7,12 @@
 class Pedido {
 private:
   std::vector<Produto> produtos;
-  std::string nome;
+  std::string cliente;
 
 public:
-  Pedido(std::string nome);
+  Pedido(std::string cliente);
+
+  std::string getCliente();
 
   void adicionaProduto(Produto produto);
   double calcularTotal();

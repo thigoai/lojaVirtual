@@ -1,10 +1,11 @@
-# Baixa e adiciona o Google Test automaticamente (opcional, mas prático)
+# Baixa e adiciona o Google Test automaticamente
 include(FetchContent)
 
 FetchContent_Declare(
     googletest
     URL https://github.com/google/googletest/archive/refs/tags/release-1.12.1.tar.gz
 )
+
 # Faz o download e compila o Google Test
 FetchContent_MakeAvailable(googletest)
 
@@ -18,17 +19,17 @@ set(TEST_FILES
 # Cria o executável para os testes
 add_executable(run_tests ${TEST_FILES})
 
-# Vincula o executável aos testes e à biblioteca do projeto principal
+# Vincula o executável às bibliotecas necessárias
 target_link_libraries(run_tests
-    projeto_lib  # Biblioteca principal do projeto
-    gtest        # Google Test
-    gtest_main   # Main do Google Test
+    loja_virtual       # Biblioteca principal do projeto
+    spdlog::spdlog     # Biblioteca de logging
+    gtest              # Google Test
+    gtest_main         # Main do Google Test
 )
 
-# Inclui o diretório de cabeçalhos do projeto principal
+# Inclui os diretórios de cabeçalhos do projeto principal
 target_include_directories(run_tests PRIVATE ${CMAKE_SOURCE_DIR}/src)
 
 # Adiciona os testes ao sistema de teste do CMake
 include(GoogleTest)
 gtest_discover_tests(run_tests)
-
