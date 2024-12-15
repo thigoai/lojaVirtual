@@ -1,7 +1,7 @@
 Loja Virtual
 
 Descrição:
-O projeto simula uma loja virtual
+O projeto simula uma loja virtual (leia mais em Relatorio_bp.pdf)
 
 Para compilar: 
 - mkdir build
