@@ -18,3 +18,8 @@ Executar:
 Obter os logs:
 - cat loja_virtual.log
 
+Depuração usando GDB:
+- gdb ./src/main_exec #para abrir menu
+- (gdb) break adicionaProduto #adciona breakpoint na função
+- (gdb) break calcularTotal #adciona breakpoint na função
+
