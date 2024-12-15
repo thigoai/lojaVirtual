@@ -10,7 +10,7 @@ Para compilar:
 - make
 
 Rodar os testes:
-- ctesr
+- ctest
 
 Executar:
 - ./src/main_exec
