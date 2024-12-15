@@ -25,6 +25,5 @@ TEST(CatalogoTests, BuscarProdutoPorId) {
   ASSERT_NE(produtoBuscado, nullptr);
   EXPECT_EQ(produtoBuscado->getNome(), "Produto 1");
 
-  // Caso de ID inexistente
   EXPECT_EQ(catalogo.buscarProdutoPorId(99), nullptr);
 }

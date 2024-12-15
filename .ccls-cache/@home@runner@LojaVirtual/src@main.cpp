@@ -5,7 +5,6 @@
 
 int main() {
   try {
-    // Logger para arquivos
     auto file_logger =
         spdlog::basic_logger_mt("file_logger", "loja_virtual.log");
     spdlog::set_default_logger(file_logger);
