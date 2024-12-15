@@ -1,0 +1,111 @@
+Start testing: Dec 15 04:18 UTC
+----------------------------------------------------------
+1/4 Testing: CatalogoTests.AdicionarEListarProdutos
+1/4 Test: CatalogoTests.AdicionarEListarProdutos
+Command: "/home/runner/LojaVirtual/build/tests/run_tests" "--gtest_filter=CatalogoTests.AdicionarEListarProdutos" "--gtest_also_run_disabled_tests"
+Directory: /home/runner/LojaVirtual/build/tests
+"CatalogoTests.AdicionarEListarProdutos" start time: Dec 15 04:18 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/runner/LojaVirtual/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CatalogoTests.AdicionarEListarProdutos
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CatalogoTests
+[ RUN      ] CatalogoTests.AdicionarEListarProdutos
+[       OK ] CatalogoTests.AdicionarEListarProdutos (0 ms)
+[----------] 1 test from CatalogoTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CatalogoTests.AdicionarEListarProdutos" end time: Dec 15 04:18 UTC
+"CatalogoTests.AdicionarEListarProdutos" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: CatalogoTests.BuscarProdutoPorId
+2/4 Test: CatalogoTests.BuscarProdutoPorId
+Command: "/home/runner/LojaVirtual/build/tests/run_tests" "--gtest_filter=CatalogoTests.BuscarProdutoPorId" "--gtest_also_run_disabled_tests"
+Directory: /home/runner/LojaVirtual/build/tests
+"CatalogoTests.BuscarProdutoPorId" start time: Dec 15 04:18 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/runner/LojaVirtual/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CatalogoTests.BuscarProdutoPorId
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CatalogoTests
+[ RUN      ] CatalogoTests.BuscarProdutoPorId
+[       OK ] CatalogoTests.BuscarProdutoPorId (0 ms)
+[----------] 1 test from CatalogoTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CatalogoTests.BuscarProdutoPorId" end time: Dec 15 04:18 UTC
+"CatalogoTests.BuscarProdutoPorId" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: PedidoTests.CalcularTotal
+3/4 Test: PedidoTests.CalcularTotal
+Command: "/home/runner/LojaVirtual/build/tests/run_tests" "--gtest_filter=PedidoTests.CalcularTotal" "--gtest_also_run_disabled_tests"
+Directory: /home/runner/LojaVirtual/build/tests
+"PedidoTests.CalcularTotal" start time: Dec 15 04:18 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/runner/LojaVirtual/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PedidoTests.CalcularTotal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PedidoTests
+[ RUN      ] PedidoTests.CalcularTotal
+[       OK ] PedidoTests.CalcularTotal (0 ms)
+[----------] 1 test from PedidoTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PedidoTests.CalcularTotal" end time: Dec 15 04:18 UTC
+"PedidoTests.CalcularTotal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: IntegracaoTests.CenárioCompleto
+4/4 Test: IntegracaoTests.CenárioCompleto
+Command: "/home/runner/LojaVirtual/build/tests/run_tests" "--gtest_filter=IntegracaoTests.CenárioCompleto" "--gtest_also_run_disabled_tests"
+Directory: /home/runner/LojaVirtual/build/tests
+"IntegracaoTests.CenárioCompleto" start time: Dec 15 04:18 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/runner/LojaVirtual/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = IntegracaoTests.CenárioCompleto
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from IntegracaoTests
+[ RUN      ] IntegracaoTests.CenárioCompleto
+[       OK ] IntegracaoTests.CenárioCompleto (0 ms)
+[----------] 1 test from IntegracaoTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"IntegracaoTests.CenárioCompleto" end time: Dec 15 04:18 UTC
+"IntegracaoTests.CenárioCompleto" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 15 04:18 UTC
