@@ -27,5 +27,6 @@ Este projeto simula uma loja virtual. Para mais detalhes, consulte o arquivo [Re
 - (gdb) continue #seguir para proximo breakpoint
 - (gdb) quit #encerrar depuração
 
-video: https://www.loom.com/share/b461e8a93cdb42cf91c5a7439b136ade?sid=13bc971f-619f-4cbd-8a8d-9d2263677079
+## Video: 
+https://www.loom.com/share/b461e8a93cdb42cf91c5a7439b136ade?sid=13bc971f-619f-4cbd-8a8d-9d2263677079
 
