@@ -4,24 +4,21 @@ Este projeto simula uma loja virtual. Para mais detalhes, consulte o arquivo [Re
 
 ## Como compilar
 
-Siga os passos abaixo para compilar o projeto:
-
-Para compilar: 
 - mkdir build
 - cd build
 - cmake ..
 - make
 
-Rodar os testes:
+## Rodar os testes:
 - ctest >> ../tests/resultado.txt
 
-Executar:
+## Executar:
 - ./src/main_exec
 
-Obter os logs:
+## Obter os logs:
 - cat loja_virtual.log
 
-Depuração usando GDB:
+## Depuração usando GDB:
 - gdb ./src/main_exec #para abrir menu
 - (gdb) break adicionaProduto #adciona breakpoint na função
 - (gdb) break calcularTotal #adciona breakpoint na função
