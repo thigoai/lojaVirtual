@@ -1,7 +1,10 @@
-Loja Virtual
+# Loja Virtual
 
-Descrição:
-O projeto simula uma loja virtual (leia mais em Relatorio_bp.pdf)
+Este projeto simula uma loja virtual. Para mais detalhes, consulte o arquivo [Relatorio_bp.pdf](Relatorio_bp.pdf).
+
+## Como compilar
+
+Siga os passos abaixo para compilar o projeto:
 
 Para compilar: 
 - mkdir build
